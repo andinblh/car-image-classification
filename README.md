@@ -1,6 +1,6 @@
   # Image Classification Car using CNN
 
-##Deskripsi Proyek
+## Deskripsi Proyek
 Proyek ini bertujuan untuk melakukan **klasifikasi jenis kendaraan** menggunakan **Convolutional Neural Network (CNN)**.  
 Dataset yang digunakan adalah *Vehicle Images Dataset* dari Kaggle, yang berisi berbagai gambar kendaraan seperti:
 - Sedan  
@@ -13,7 +13,7 @@ Dataset yang digunakan adalah *Vehicle Images Dataset* dari Kaggle, yang berisi 
 
 Model CNN dilatih menggunakan *TensorFlow dan Keras*, dengan pembagian dataset menjadi *train*, *validation*, dan *test set* untuk memastikan model dapat belajar dan melakukan generalisasi dengan baik.
 
-##Struktur Dataset
+## Struktur Dataset
 Dataset berada di folder `dataset_all/` dengan subfolder untuk setiap kelas kendaraan.  
 Dataset dibagi secara otomatis menggunakan `ImageDataGenerator` menjadi:
 - *80% Training set*
@@ -24,7 +24,7 @@ Semua gambar diubah ke ukuran *150x150 piksel* sebelum dimasukkan ke dalam model
 
 ---
 
-##Arsitektur Model CNN
+## Arsitektur Model CNN
 Model dibangun menggunakan *Sequential API* dengan susunan layer sebagai berikut:
 
 1. `Conv2D(32, (3,3), activation='relu')`
@@ -42,7 +42,7 @@ Metrics: `accuracy`
 
 ---
 
-##Penyimpanan Model
+## Penyimpanan Model
 Model disimpan dalam tiga format berbeda agar bisa digunakan di berbagai platform:
 
 | Format | File | Kegunaan |
