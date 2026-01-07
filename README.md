@@ -38,7 +38,7 @@ Model yang sudah dilatih diekspor dalam beberapa format berikut:
 1. TensorFlow SavedModel
 2. TensorFlow Lite (TFLite)
 3. TensorFlow.js (TFJS)
-=======
+   
  # Image Classification Car using CNN
 
 ##Deskripsi Proyek
@@ -113,12 +113,3 @@ Model disimpan dalam tiga format berbeda agar bisa digunakan di berbagai platfor
 | TFJS | `model_tfjs/` | Untuk aplikasi berbasis web |
 
 Selain itu, model terbaik juga disimpan sebagai `best_model.keras`.
-
----
-
-## Cara Menjalankan Proyek
-### Instalasi Library
-Pastikan semua library terinstall:
-```bash
-pip install -r requirements.txt
-1985734 (Initial commit)
