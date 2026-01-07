@@ -23,7 +23,7 @@ Selain itu, **data augmentation** diterapkan untuk:
 
 ---
 
-## 🚀 Alur Kerja Pelatihan
+## Alur Kerja Pelatihan
 1. Melakukan preprocessing dataset  
 2. Membangun arsitektur CNN  
 3. Melakukan training model menggunakan training dan validation set  
